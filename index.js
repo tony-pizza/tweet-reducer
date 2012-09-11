@@ -15,11 +15,8 @@ exports.run = function (opts) {
     return;
   }
 
-  console.log(opts.gzipped);
   if (typeof opts.gzipped === 'undefined')
     opts.gzipped = data_file.path.match(/\.gz$/i);
-  console.log(data_file.path.match(/\.gz$/i));
-  console.log(opts.gzipped);
 
   opts.keypath = opts.keypath || [true];
   var parser = JSONStream.parse(opts.keypath);
