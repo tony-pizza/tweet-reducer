@@ -1,0 +1,21 @@
+{
+  "name": "tweet-reducer",
+  "version": "1.0.0",
+  "description": "Helpful methods for turning Twitter Stream JSON into analytical data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peeinears/tweet-reducer.git"
+  },
+  "dependencies": {
+    "optimist": "*",
+    "JSONStream": "*",
+    "pathway": "*"
+  },
+  "engines": { "node": "*" },
+  "author": "Ian Pearce <ian@ianpearce.org>",
+  "license": "MIT"
+}
